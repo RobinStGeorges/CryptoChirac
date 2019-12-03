@@ -39,7 +39,7 @@ contract voteContract {
         //can vote ?
         if(userDidVote() == false){
         //get score
-            uint score = 1500; //a gerer aprï¿½s
+            uint score = 1500; //a gerer apr?s
         //get number attemps possible
         //get vote val max
         //enougth attemps
@@ -69,9 +69,9 @@ contract voteContract {
         int height = 11;
         
         while (height > 0) {
-            if (height % 2 == 0) {  // Ã©tage intermÃ©diaire 
+            if (height % 2 == 0) {  // étage intermédiaire 
                 slot += now % 2;
-            } else {    // Ã©tage de dÃ©part / arrivÃ©e 
+            } else {    // étage de départ / arrivée 
                 slot -= now % 2;
             }
             height --;
